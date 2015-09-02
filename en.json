@@ -1,0 +1,90 @@
+git commit -m'change the update info of arduino studio to arduino.org'
+
+
+
+[
+  {
+    "buildNumber": 16047,
+    "versionString": "Release 0.0.3",
+    "releaseLifeCycle" : "Alpha",
+    "dateString": "08-06-2015",
+    "releaseNotesURL": "",
+    "downloadURL": "http://www.arduino.org/downloads",
+    "sourceCodeURL" : "https://github.com/arduino-org/brackets-arduino/tree/0.0.3-alpha",
+    "changeLog": [
+      {
+        "group" : "studio",
+        "features": [
+          {
+            "name": "Compiler module improved.",
+            "description": ""
+          },
+          {
+            "name": "uploader module improved.",
+            "description": ""
+          },
+          {
+            "name": "Enabled SAMD architecture : m0, m0 pro.",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "buildNumber": 16043,
+    "versionString": "Release 0.0.2",
+    "releaseLifeCycle" : "Alpha",
+    "dateString": "07-10-2015",
+    "releaseNotesURL": "",
+    "downloadURL": "http://www.arduino.org/downloads",
+    "sourceCodeURL" : "https://github.com/arduino-org/brackets-arduino/tree/0.0.2-alpha",
+    "changeLog": [
+      {
+        "group": "studio",
+        "features": [
+          {
+            "name": "Enabled extension manager.",
+            "description": ""
+          },
+          {
+            "name": "Enabled avr boards: mega, mega adk, ethernet, fio, nano w/ 328.",
+            "description": ""
+          },
+          {
+            "name": "Open blink example at first run.",
+            "description": ""
+          },
+          {
+            "name": "Improve ui loading.",
+            "description": ""
+          },
+          {
+            "name": "Serial monitor responsive ui.",
+            "description": ""
+          },
+          {
+            "name": "Serial monitor fix end line chars in received messages.",
+            "description": ""
+          },
+          {
+            "name": "Fix icon now visible in bar for linux version.",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "buildNumber": 16027,
+    "versionString": "Release 0.0.1",
+    "releaseLifeCycle" : "Alpha",
+    "dateString": "06-10-2015",
+    "releaseNotesURL": "",
+    "downloadURL": "http://www.arduino.org/downloads",
+    "sourceCodeURL" : "https://github.com/arduino-org/brackets-arduino/tree/0.0.1-alpha",
+    "changeLog": [
+
+    ]
+  }
+]
