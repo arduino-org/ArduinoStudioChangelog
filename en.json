@@ -22,6 +22,10 @@
           {
             "name": "Enabled SAMD architecture : m0, m0 pro.",
             "description": ""
+          },
+          {
+            "name": "Arduino drivers for Windows 10",
+            "description": ""
           }
         ]
       },
@@ -52,6 +56,10 @@
 		  {
             "name": "Added New Arduino Ciao Library",
             "description": "Arduino Ciao Library allows Linino users to connect to external world"
+          },
+		  {
+            "name": "Ethernet Library support for M0/M0 Pro",
+            "description": ""
           }
         ]
 	  },
