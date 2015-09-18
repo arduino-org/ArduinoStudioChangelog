@@ -1,6 +1,6 @@
 [
   {
-    "buildNumber": 0,
+    "buildNumber": 16055,
     "versionString": "Release 0.0.4",
     "releaseLifeCycle" : "Alpha",
     "dateString": "09-18-2015",
@@ -18,10 +18,6 @@
           {
             "name": "Themes settings enabled",
             "description": "Now themes can be setted via Themes Settings Window"
-          },
-          {
-            "name": "Enabled SAMD architecture : m0, m0 pro.",
-            "description": ""
           },
           {
             "name": "Arduino drivers for Windows 10",
