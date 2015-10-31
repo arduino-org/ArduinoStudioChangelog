@@ -1,5 +1,84 @@
 [
   {
+    "buildNumber": 16055,
+    "versionString": "Release 0.0.4",
+    "releaseLifeCycle" : "Alpha",
+    "dateString": "09-18-2015",
+    "releaseNotesURL": "",
+    "downloadURL": "http://www.arduino.org/downloads",
+    "sourceCodeURL" : "https://github.com/arduino-org/brackets-arduino/tree/0.0.4-alpha",
+    "changeLog": [
+      {
+        "group" : "studio",
+        "features": [
+          {
+            "name": "New debugger module.",
+            "description": "Debuger module available for arduino zero pro and m0 pro"
+          },
+          {
+            "name": "Themes settings enabled",
+            "description": "Now themes can be setted via Themes Settings Window"
+          },
+          {
+            "name": "Arduino drivers for Windows 10",
+            "description": ""
+          }
+        ]
+      },
+	  {
+		"group" : "core",
+        "features": [
+          {
+            "name": "Fixed Tx and Rx for M0/M0 Pro",
+            "description": "Tx and Rx blinking during serial communication for M0/M0 Pro"
+          }
+        ]		
+	  },
+	  {
+		"group" : "libraries",
+        "features": [
+          {
+            "name": "Added 9AXES support for M0/M0 Pro",
+            "description": "Users Have to change the 9AXES address to 0x29 using M0 Pro"
+          },
+		  {
+            "name": "Added TFT support for M0/M0 Pro",
+            "description": ""
+          },
+		  {
+            "name": "Added RTC support for M0/M0 Pro",
+            "description": ""
+          },
+		  {
+            "name": "Added New Arduino Ciao Library",
+            "description": "Arduino Ciao Library allows Linino users to connect to external world"
+          },
+		  {
+            "name": "Ethernet Library support for M0/M0 Pro",
+            "description": ""
+          }
+        ]
+	  },
+	  {
+		"group" : "bootloaders",
+        "features": [
+          {
+            "name": "Added Arduino.org Caterina source code",
+            "description": "Caterina based bootloader source code now inclued (Caterina-ORG)"
+          },
+		  {
+            "name": "Added build_all_target.sh to build all bootloader *.hex files",
+            "description": ""
+          },
+		  {
+            "name": "Added make clean_all command to clean working directory",
+            "description": ""
+          }
+        ]
+	  }
+    ]
+  },
+  {
     "buildNumber": 16047,
     "versionString": "Release 0.0.3",
     "releaseLifeCycle" : "Alpha",
