@@ -1,4 +1,69 @@
-[
+[  {
+    "buildNumber": 0,
+    "versionString": "Release 0.0.5",
+    "releaseLifeCycle" : "Alpha",
+    "dateString": "10-30-2015",
+    "releaseNotesURL": "",
+    "downloadURL": "http://www.arduino.org/downloads",
+    "sourceCodeURL" : "https://github.com/arduino-org/brackets-arduino/tree/0.0.5-alpha",
+    "changeLog": [
+    	{
+        "group" : "studio",
+        "features": [
+          {
+            "name": "Removed the breakpoints at the end of the debugging.",
+            "description": ""
+          },
+          {
+            "name": "Autorun Debugger.",
+            "description": "Debugger now starts automaticcaly w/o select files."
+          },
+          {
+            "name": "Fixed import library.",
+            "description": ""
+          }
+        ]
+       },
+	{
+	"group" : "libraries",
+        "features": [
+          {
+            "name": "Fixed M0 / M0 Pro delay()",
+            "description": "support ticket #764877."
+          },
+	  {
+            "name": "Arduino M0 / M0 Pro A0 GPIO Bugfix.",
+            "description": ""
+          },
+	  {
+            "name": "Arduino M0 / M0 Pro Interrupt Bugfix.",
+            "description": ""
+          },
+	  {
+            "name": "Arduino M0 / M0 Pro RTC (Real Time Clock).",
+            "description": ""
+          },
+          {
+            "name": "Power management library (Rest) for Arduino M0 and M0 PRO boards.",
+            "description": ""
+          }
+        ]
+	  },
+	  {
+	"group" : "platforms",
+        "features": [
+          {
+            "name": "Enabled Others AVR boards.",
+            "description": "Enabled AVR boards: Arduino Leonardo, Arduino Leonardo Ethernet 2, Arduino Micro, Arduino Esplora, Arduino Robot, LilyPad, Arduino Mega 2560, Arduino Mega ADK."
+          },
+	  {
+            "name": "Enabled SAM architecture.",
+            "description": "Enabled SAM architecture and Arduino DUE (native / programming)."
+          }
+        ]
+	}
+    ]
+  },
   {
     "buildNumber": 16055,
     "versionString": "Release 0.0.4",
